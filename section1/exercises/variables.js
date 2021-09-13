@@ -40,7 +40,7 @@ console.log(numberOfPets);
 // IN WORDS:
 // How did you decide to use the data type you did for each of the three variables above?
   // Explain.
-Determining what would be an appropriate value for the variable.
+'Determining what would be an appropriate value for the variable.'
 
 // YOU DO:
 // Re-assign the values to the three variables from the previous challenge to different
