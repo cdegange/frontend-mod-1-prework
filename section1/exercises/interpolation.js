@@ -50,6 +50,12 @@ speedy = "hare";
   // you name the variables. Remember, the goal is to be concise but descriptive (it's a hard balance!)
   // Then, log out ONE sentence that incorporates all THREE variables uisng interpolation.
 
+  var petName = 'River';
+  var petFavoriteToy = 'marrow bone';
+  var petFavoritePlace = 'bed';
+
+  console.log(`My dog ${petName}  loves to chew on his ${petFavoriteToy} in his ${petFavoritePlace}!`);
+
 
 //-------------------
 // FINAL CHECK
