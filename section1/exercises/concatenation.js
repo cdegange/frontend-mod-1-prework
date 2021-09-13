@@ -24,7 +24,7 @@ console.log("My zoo has " + numberOfCreatures + " " + creatures + "!")
 // YOU DO: What data type will be logged to the console as a result of line 22? Explain.
 // Your answer and explanation here:
 
-A string. The concatenation of using a variable in place of a number converts it to a string.
+'A string. The concatenation of using a variable in place of a number converts it to a string.'
 
 
 // YOU DO:
