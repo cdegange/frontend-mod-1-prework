@@ -40,7 +40,7 @@ console.console.log(numberOfPets);
 // IN WORDS:
 // How did you decide to use the data type you did for each of the three variables above?
   // Explain.
-A name is a set of words so it must be a string. Is hungry can be answered with true or false so I chose boolean. Number of pets is a number.
+'Determining what would be an appropriate value for the variable.'
 
 // YOU DO:
 // Re-assign the values to the three variables from the previous challenge to different
