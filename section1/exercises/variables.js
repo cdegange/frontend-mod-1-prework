@@ -24,7 +24,7 @@ console.log(enrolledStudents);
 // Write code below to save the string 'Harry Potter must not return to Hogwarts!'
 // log that variable to the console.
 var harryPotter = 'Harry Potter must not return to Hogwarts!'
-console.console.log(harryPotter);
+console.log(harryPotter);
 
 // YOU DO:
 // Declare three variables, named `firstName`, `isHungry` and `numberOfPets`.
@@ -33,34 +33,34 @@ console.console.log(harryPotter);
   var isHungry = false
   var numberOfPets = 1
 // log all three variables to the console
-console.console.log(firstName);
-console.console.log(isHungry);
-console.console.log(numberOfPets);
+console.log(firstName);
+console.log(isHungry);
+console.log(numberOfPets);
 
 // IN WORDS:
 // How did you decide to use the data type you did for each of the three variables above?
   // Explain.
-'Determining what would be an appropriate value for the variable.'
+Determining what would be an appropriate value for the variable.
 
 // YOU DO:
 // Re-assign the values to the three variables from the previous challenge to different
   // values (but same data type).
 firstName = 'River';
 isHungry = true;
-numberOfPets = 0
+numberOfPets = 0;
 
 
 // log all three variables to the console.
-console.console.log(firstName);
-console.console.log(isHungry);
-console.console.log(numberOfPets);
+console.log(firstName);
+console.log(isHungry);
+console.log(numberOfPets);
 
 // YOU DO:
 // Using the variables below, log the total number of snacks to the console:
 var healthySnacks = 6;
 var junkFoodSnacks = 8;
 
-console.console.log(healthySnacks + junkFoodSnacks);
+console.log(healthySnacks + junkFoodSnacks);
 
 //-------------------
 // FINAL CHECK
