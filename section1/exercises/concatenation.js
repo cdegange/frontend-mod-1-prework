@@ -57,7 +57,7 @@ var petBreed = 'German Shorthaired Pointer';
 
   // Then, log out ONE sentence that incorporates all THREE variables.
 
-console.log('My ' + petType + '' petName + ' is a ' + petBreed + '!');
+console.log('My ' + petType + ' ' petName + ' is a ' + petBreed + '!');
 
 //-------------------
 // FINAL CHECK
