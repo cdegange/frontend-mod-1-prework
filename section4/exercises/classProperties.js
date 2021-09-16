@@ -16,10 +16,37 @@ Make sure to run the file with node in your command line.
   // You do not need any proerties at this time!!
 
 // Prompt 1: Dog
+class Dog {
+
+}
+
+var pointer = new Dog();
+var mastiff = new Dog();
+
+console.log(pointer);
+console.log(mastiff);
 
 // Prompt 2: Snack
+class Snack {
+
+}
+
+var chip = new Snack();
+var stringCheese = new Snack();
+
+console.log(chip);
+console.log(stringCheese);
 
 // Prompt 3: Shirt
+class Shirt {
+
+}
+
+var longSleeve = new Shirt();
+var shortSleeve = new Shirt();
+
+console.log(longSleeve);
+console.log(shortSleeve);
 
 //-------------------
 // Part 2: Properties
@@ -32,11 +59,37 @@ Make sure to run the file with node in your command line.
   // Create an object instance and store in variable
   // Log that variable to the console.
 
-// Prompt 1: Dog
+// Prompt 1: Puppy
+class Puppy {
+  constructor()  {
+    this.name = 'River';
+    this. weight = 66;
+    this.neutered = true;
+  }
+}
+var gsp = new Puppy();
 
-// Prompt 2: Snack
+// Prompt 2: Fruit
+class Fruit {
+  constructor()  {
+    this.sweet = false;
+    this.tart = true;
+    this.color = 'green';
+  }
+}
+var apple = new Fruit ();
+console.log(apple);
 
-// Prompt 3: Shirt
+// Prompt 3: Beverage
+class Beverage {
+  constructor()  {
+    this.brand = 'Snapple';
+    this.carbonated = true;
+    this.can = false
+  }
+}
+var lacroix = new Beverage();
+console.log(lacroix);
 
 //-------------------
 // Part 3: Dynamic Properties
@@ -51,7 +104,43 @@ Make sure to run the file with node in your command line.
   // Log those variables to the console.
 
 // Prompt 1: Dog
+class Dog2 {
+  constructor(type, weight, color) {
+    this.breed = type;
+    this.wght = weight;
+    this.clr = color;
+  }
+}
+var myDog = new Dog2('GSP', 66, 'Liver');
+var otherDog = new Dog2('Mastiff', 110, 'Grey');
+
+console.log(myDog);
+console.log(otherDog);
 
 // Prompt 2: Snack
+class Snack2 {
+  constructor(sour, chocolate, nuts) {
+    this.isSour = sour;
+    this.hasChocolate = chocolate;
+    this.hasNuts = nuts;
+  }
+}
+var snickers = new Snack2(false, true, true);
+var kitkat = new Snack2(false, true, false);
+
+console.log(snickers);
+console.log(kitkat);
 
 // Prompt 3: Shirt
+class Shirt2 {
+  constructor(material, longSleeve, collar) {
+    this.madeOf = material;
+    this.hasLongSleeves = longSleeve;
+    this.hasCollar = collar;
+  }
+}
+var polo = new Shirt2('Polyester', false, true);
+var tshirt = new Shirt2('Cotton', false, false);
+
+console.log(polo);
+console.log(tshirt);
